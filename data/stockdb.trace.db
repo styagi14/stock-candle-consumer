@@ -1,0 +1,3 @@
+2022-05-16 21:20:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TBL_STOCK_CANDLE" not found; SQL statement:
+insert into TBL_STOCK_CANDLE (SYMBOL, EXCHANGE, OPEN_PRICE, CLOSE_PRICE, MIN_PRICE, MAX_PRICE, CREATED_DATETIME) values(?,?,?,?,?,?,?) [42102-200]
